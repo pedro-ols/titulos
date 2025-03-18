@@ -42,3 +42,14 @@
     color: #cccccc; /* Tom mais claro de branco ao passar o mouse */
   }
   
+  @media (max-width: 480px) {  
+    .nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .nav li {
+      margin: 5px 0;
+    }
+  }
+  

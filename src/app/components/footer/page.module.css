@@ -47,3 +47,9 @@
     border-top: 1px solid #333333;
     font-size: 0.9rem;
   }
+  @media (max-width: 768px) {
+    .footerSection {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }

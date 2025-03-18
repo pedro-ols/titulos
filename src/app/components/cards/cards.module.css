@@ -10,14 +10,14 @@
     flex-direction: column;
     align-items: center;
     border: 1px solid #e0e0e0;
-  }
-  
-  .trophy:hover {
+}
+
+.trophy:hover {
     transform: translateY(-5px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-  }
-  
-  .trophyCover {
+}
+
+.trophyCover {
     margin-bottom: 15px;
     width: 180px;
     height: 280px;
@@ -27,47 +27,49 @@
     background-color: #f0f0f0;
     border-radius: 5px;
     overflow: hidden;
-  }
-  
-  .trophyCover img {
+}
+
+.trophyCover img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 5px;
-  }
-  
-  .trophyInfo {
+}
+
+.trophyInfo {
     text-align: center;
     width: 100%;
-  }
-  
-  .trophyInfo h3 {
+}
+
+.trophyInfo h3 {
     margin: 0 0 10px 0;
     color: #000000;
     font-size: 1.2rem;
     font-weight: bold;
-  }
-  
-  .year {
+}
+
+.year {
     font-weight: bold;
-    color: #cc0000; /* Vermelho para destaque */
+    color: #cc0000;
+    /* Vermelho para destaque */
     margin: 0 0 10px 0;
     font-size: 1.1rem;
-  }
-  
-  .details {
+}
+
+.details {
     color: #333333;
     margin: 0 0 15px 0;
     line-height: 1.4;
-  }
-  
-  .recordTitle {
+}
+
+.recordTitle {
     font-weight: bold;
     color: #000000;
-  }
-  
-  .detailsButton {
-    background-color: #000000; /* Botão preto */
+}
+
+.detailsButton {
+    background-color: #000000;
+    /* Botão preto */
     color: white;
     border: none;
     padding: 8px 15px;
@@ -75,8 +77,21 @@
     cursor: pointer;
     transition: background-color 0.3s ease;
     font-weight: bold;
-  }
-  
-  .detailsButton:hover {
-    background-color: #333333; /* Tom mais claro ao passar o mouse */
-  }
+}
+
+.detailsButton:hover {
+    background-color: #333333;
+    /* Tom mais claro ao passar o mouse */
+}
+
+@media (max-width: 768px) {
+    .trophy {
+        width: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .trophy {
+        width: 100%;
+    }
+}
