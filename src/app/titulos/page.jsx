@@ -2,12 +2,14 @@ import styles from "./titulos.module.css";
 import Header from "../components/header"
 import Footer from "../components/footer"
 import Card from "../components/cards"
+import Section from "../components/sections"
 
 const CorinthiansTrophiesPage = () => {
     return (
         <div className={styles.container}>
             <Header />
             <main className={styles.main}>
+                <Section titulo={"Conquistas Principais"}/>
                 <section className={styles.featured}>
                     <h2>Conquistas Principais</h2>
                     <div className={styles.featuredTrophies}>
@@ -17,6 +19,7 @@ const CorinthiansTrophiesPage = () => {
                     </div>
                 </section>
 
+                <Section titulo={"Campeonatos Brasileiros"}/>
                 <section className={styles.newTrophies}>
                     <h2>Campeonatos Brasileiros</h2>
                     <div className={styles.trophiesGrid}>
@@ -35,6 +38,7 @@ const CorinthiansTrophiesPage = () => {
                     </div>
                 </section>
 
+                <Section titulo={"Outras Conquistas"}/>
                 <section className={styles.otherTrophies}>
                     <h2>Outras Conquistas</h2>
                     <div className={styles.trophiesGrid}>
