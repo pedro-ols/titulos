@@ -12,8 +12,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Títulos",
-  description: "Projeto com componentização e props em NextJS",
+  title: "Página de títulos",
+  description: "Projeto de componentização com props em NextJS",
 };
 
 export default function RootLayout({ children }) {
